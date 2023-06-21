@@ -1,0 +1,18 @@
+__ignore*
+
+# Flask instance folder
+instance
+
+# Flask server config
+config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

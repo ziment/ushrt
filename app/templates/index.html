@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ushrt</title>
+</head>
+<body>
+<pre>
+Some random Flask URL shortening service made in a couple hours.
+
+POST your URLs here:
+    curl -F'shorten=https://github.com' &lthost name&gt
+
+Response includes a token that can be used to delete the shortened URL:
+    curl -F'token=abcd' &lthost name&gt/abcd -X DELETE
+</pre>
+</body>
+</html>
